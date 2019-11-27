@@ -1,0 +1,141 @@
+.container{
+    width:80%;
+    margin: 0 auto;
+}
+body {
+    margin: 0;
+    background: #222;
+    font-family: 'work sans',sans-serif;
+    font-weight: 300;
+}
+header{
+    background: #55d6aa;
+}
+.logo {
+    float: left;
+    width: 10%;
+    height: 10%;
+    margin: 10px 0px 5px 0px;
+}
+nav{
+    float: right;
+}
+header::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+nav ul {
+    margin:0;
+    padding:0;
+    list-style:none;
+
+}
+nav li{
+    display: inline-block;
+    margin-left: 70px;
+    padding-top:25px;
+    position: relative;
+}
+nav a{
+    color:#444;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size:14px;
+}
+nav a:hover{
+    color: #000;
+}
+nav a::before{
+    content: '';
+    display: block;
+    height: 5px;
+    width: 0%;
+    background-color: #444;
+    position: absolute;
+    top:0;
+    transition: all ease-in-out 250ms;
+
+}
+nav a:hover::before{
+   width:100%;
+}
+.foto{
+    float: right;
+    width: 50%;
+}
+
+
+main div p{
+  
+    font-size: 18pt;
+}
+footer {
+    position: fixed;
+    bottom:0;
+    width:100%;
+    height:60px;   
+    background:#55d6aa;
+    font-weight: bold;
+    clear: both;
+ }
+ footer p{
+    text-align: right; 
+    margin-right: 35px;
+ }
+.foto2{
+    float:left;
+    width: 50%;
+}
+#pFromSnowboarden{
+    font-size: 18pt;
+}
+#h1index{
+    text-align: center;
+    color: white;
+    font-size: 35pt;
+
+}
+main div{
+    text-align: center;
+    color: white;
+    font-size: 21pt;
+    margin-right: 52%;
+    margin-left: 20px;
+}
+#divsnowboarden{
+    text-align: center;
+    color: white;
+    font-size: 25pt;
+    margin-left: 52%;
+    margin-right: 20px;
+}
+#contact{
+    color: white;
+    text-align: center;
+    
+}
+#pcontact{
+    color: white;
+    text-align: center;
+
+}
+#linktoamail{
+    text-align: center;
+    color:white;
+}
+#linkcolor{
+    color:white;
+}
+#hobby{
+    width: 100px;
+    height: 100px;
+}
+#studie{
+    width: 100px;
+    height: 100px;
+}
+#contact2{
+    width: 100px;
+    height: 100px;
+}
